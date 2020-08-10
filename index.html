@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylein.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Creative Gallery</title>
+</head>
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo"><img src="logo.jpg" alt="logo"></div>
+            <li><a href="#home" class="cool-link">Home</a></li>
+            <li><a href="#about" class="cool-link">About</a></li>
+            <li><a href="#gallery" class="cool-link">Gallery</a></li>
+            <li><a href="#contact" class="cool-link">Contact Us</a></li>
+        </ul>
+        
+        <div class="rightNav">
+            <!--<input type="text" name="search" id="search" placeholder="Search">
+            <button class="btn btn-sm">Search</button>-->
+        
+                <input name="search" placeholder="Search" id="search" class="js-search" type="text">
+                <i class="fa fa-search lol"></i>
+            
+        </div>
+
+    </nav>
+
+    <section class="background firstSection" id="about">
+        <div class="box-main" id="home">
+
+            <div class="secondHalf">
+                <img src="logo.jpg" alt="Oric Logo">
+            </div>
+            
+            <div class="firstHalf">
+                <p class="text-big">Jai Madhukar</p>
+                <p class="text-small">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Placeat dolor quisquam aut dolorem facere doloribus</p>
+                <!--<div class="buttons">
+                    <button class="btn">Follow</button>
+                    <button class="btn">Share</button>
+                </div>-->
+                <div class="social-btns">
+                    <a class="btns instagram" href="https://www.instagram.com/ig_jai7/" target="_blank" style="color:#fff"><i class="fa fa-instagram"></i></a>
+                    <a class="btns youtube"href="https://www.youtube.com/channel/UCw40vDGGAQ4hy9clg9gSh4g" target="_blank" style="color:#fff"><i class="fa fa-youtube-play"></i></a>
+                    <a class="btns github" href="https://github.com/Jai-17" target="_blank" style="color:#fff"><i class="fa fa-github"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+        wow = new WOW(
+   {
+    boxClass:     'wow',      // default
+    animateClass: 'animated', // change this if you are not using animate.css
+    offset:       0,          // default
+    mobile:       true,       // keep it on mobile
+    live:         true        // track if element updates
+   }
+  )
+   wow.init();
+    </script>
+
+    <h2 class=" wow fadeIn pro" style="animation-delay:300ms;">Art Gallery</h2>
+
+   <section class="section" id="gallery">
+        <!--<div class="paras">
+        <p class="sectionTag text-big">Lorem ipsum dolor sit amet</p>
+        <p class="sectionsubTag text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Soluta voluptatem at, ea id corrupti expedita,
+              veritatis dolorem fugit atque sit illum beatae. Cumque, maiores.
+               Cum eius deserunt error veritatis cumque.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="bg.jpg" alt="Creative i am" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="section section-left">
+        <div class="paras">
+        <p class="sectionTag text-big">Lorem ipsum dolor sit amet</p>
+        <p class="sectionsubTag text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Soluta voluptatem at, ea id corrupti expedita,
+              veritatis dolorem fugit atque sit illum beatae. Cumque, maiores.
+               Cum eius deserunt error veritatis cumque.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="bg3.jpg" alt="Creative i am" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="paras">
+        <p class="sectionTag text-big">Lorem ipsum dolor sit amet</p>
+        <p class="sectionsubTag text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Soluta voluptatem at, ea id corrupti expedita,
+              veritatis dolorem fugit atque sit illum beatae. Cumque, maiores.
+               Cum eius deserunt error veritatis cumque.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="bg2.jpg" alt="Creative i am" class="imgFluid">
+        </div>-->
+
+        <div class="container2">
+            <div class="card">
+                <div class="imgbox">
+                    <img src="untitled.png" alt="Logo">
+                </div>
+                <div class="content">
+                    <h2 class="imp">Sneakers</h2>
+                    <p class="lmao0">Sneakers made in Blender with neon sole. This was made as my submission in a 3d competition.</p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="imgbox">
+                    <img src="binod.png" alt="Logo">
+                </div>
+                <div class="content">
+                    <h2 class="imp">Ice Crystal</h2>
+                    <p class="lmao0">Sci-Fi Ice Crystal made in Blender with a glowing center.</p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="imgbox">
+                    <img src="black hole.png" alt="Logo">
+                </div>
+                <div class="content">
+                    <h2 class="imp">Black Hole</h2>
+                    <p class="lmao0">This Black Hole was my first attempt to make something entirely using shaders and volumetrics in blender. </p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="imgbox">
+                    <img src="burgerren2.png" alt="Logo">
+                </div>
+                <div class="content">
+                    <h2 class="imp">Space Burger</h2>
+                    <p class="lmao0">Space Burger which floats in space and has rings inspired by saturn.Made in Blender 2.82a. </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="imgbox">
+                    <img src="destroy.png" alt="Logo">
+                </div>
+                <div class="content">
+                    <h2 class="imp">Star Destroyer</h2>
+                    <p class="lmao0">Star Wars Star Destroyer made in Blender and rendered in cycles.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="imgbox">
+                    <img src="Hospital.png" alt="Logo">
+                </div>
+                <div class="content">
+                    <h2 class="imp">Plus Hospital</h2>
+                    <p class="lmao0">A plus shaped hospital made in Blender. This was made as my submission in a competition</p>
+                </div>
+            </div>
+    
+        </div>
+        
+
+    </section>
+
+    <!--<div class="container">
+        <div class="box">
+            <div class="icon">01</div>
+            <div class="content">
+                <h3>Service Name</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Soluta voluptatem at, ea id corrupti expedita,
+                     veritatis dolorem fugit atque sit illum beatae. Cumque, maiores.
+                      Cum eius deserunt error veritatis cumque.</p>
+                
+            </div>
+        </div>
+        <div class="box">
+            <div class="icon">02</div>
+            <div class="content">
+                <h3>Service Name</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Soluta voluptatem at, ea id corrupti expedita,
+                     veritatis dolorem fugit atque sit illum beatae. Cumque, maiores.
+                      Cum eius deserunt error veritatis cumque.</p>
+               
+            </div>
+        </div>
+        <div class="box">
+            <div class="icon">03</div>
+            <div class="content">
+                <h3>Service Name</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Soluta voluptatem at, ea id corrupti expedita,
+                     veritatis dolorem fugit atque sit illum beatae. Cumque, maiores.
+                      Cum eius deserunt error veritatis cumque.</p>
+                
+            </div>
+        </div>
+    </div>-->
+
+
+    <section class="contact" id="contact">
+        <h2 class="text-center">Contact Us</h2>
+        <!--<div class="form">
+            <input class="form-input"type="text" name="name" id="name" placeholder="Name" required>
+            <input class="form-input"type="text" name="phone" id="phone" placeholder="Phone No."required>
+            <input class="form-input"type="email" name="email" id="email" placeholder="E-mail" required>
+            <textarea class="form-input" name="text" id="text" cols="20" rows="10" placeholder="Elaborate Your Concern" required>
+
+            </textarea>
+            <button class="btn btn-dark">Submit</button>
+        </div>-->
+
+        <div class="container1">
+            
+            <div class="contact-box">
+                <div class="contact-left">
+                    <div>
+                        <h3>Get in Contact</h3>
+                        <i class="fa fa-phone"></i><span class="form-info">+91 9954563663</span><br>
+                        <i class="fa fa-envelope"></i><span class="form-info">madhukarjai9@gmail.com</span>
+                        
+                    </div>
+                </div>
+                <div class="contact-right">
+                    
+                    
+                   
+                    <form>
+                        <div class="input-row">
+                            <div class="input-group">
+                               
+                                <input class="inputlol" type="text" placeholder="Enter your Name">
+                            </div>
+                            <div class="input-group">
+                            
+                                <input class="inputlol" type="text" placeholder="Enter your Phone no.">
+                            </div>
+                            <div class="input-group">
+                               
+                                <input  class="inputlol" type="email" placeholder="Enter your E-mail">
+                            </div>
+                            
+                        </div>
+                        
+                        <textarea name="message" id="message" rows="5" placeholder="Enter your Message"></textarea>
+                        <button type="submit" class="btn-dark">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="background">
+        <p class="text-footer">
+        Copyright &copy; 2020-All Rights Reserved
+        </p>
+    </footer>
+</body>
+</html>
