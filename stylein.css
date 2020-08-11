@@ -152,7 +152,6 @@
 }
 
 .section{
-    height:1000px;
     display:flex;
     align-items: center;
     justify-content: space-evenly;
@@ -619,3 +618,10 @@ i.lol{
     font-size:50px;
 }
 
+
+@media only screen and (max-width:1366px){
+    .card{
+        width:293px;
+        height:355px;
+    }
+}
